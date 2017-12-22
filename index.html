@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+	<script type="text/javascript">
+		window.onload = function() {   
+		    document.documentElement.style.fontSize=document.documentElement.clientWidth/480 * 100 +'px';     
+		window.onresize = function() {        
+		    document.documentElement.style.fontSize=document.documentElement.clientWidth/480 * 100 +'px'; 
+			};
+		};
+	</script>
+	<style type="text/css">
+		.swiper-container {
+		    width: 100%;
+		    height: 2.4rem;
+		} 
+		.swiper-container-2{
+			width: 100%;
+			height: 2.1rem;
+			overflow: hidden;
+		}
+		.swiper-container-2 img{
+			width: 100%;
+		}
+		.swiper-container p{
+			font-size: 0.2rem;
+			text-align: center;
+		}
+		.swiper-container img{
+			width: 1.36rem;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<img src="img/1.png">
+			<p>北京市 <img src="img/2.png"></p>
+			<a href="#"><img src="img/3.png"></a>
+		</div>
+		
+
+		<div class="swiper-container-2">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="img/4-1.png"></div>
+		        <div class="swiper-slide"><img src="img/4-2.png"></div>
+		        <div class="swiper-slide"><img src="img/4-3.png"></div>
+
+		       
+		    </div>
+		    
+		</div>
+
+		<div class="content">
+			<div class="con-top">
+				<p>热映电影</p>
+				<span>更多></span>
+			</div>
+			
+
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+			        	<img src="img/5-1.png" alt="">
+			        	<p>寻梦环游记</p>
+			        </div>
+			         <div class="swiper-slide">
+			        	<img src="img/5-2.png" alt="">
+			        	<p>挚爱梵高</p>
+			        </div>
+			         <div class="swiper-slide">
+			        	<img src="img/5-3.png" alt="">
+			        	<p>芳华</p>
+			        </div>
+			         <div class="swiper-slide">
+			        	<img src="img/5-4.png" alt="">
+			        	<p>寻梦环游记</p>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="img/5-5.png" alt="">
+			        	<p>寻梦环游记</p>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="img/5-6.png" alt="">
+			        	<p>寻梦环游记</p>
+			        </div>
+			       
+			        
+			    </div>
+			</div>
+		</div>
+
+		<div class="bottom">
+			<p>金逸推荐</p>
+			<div class="zhi">
+				<div class="zuo">
+					<img src="img/6-1.png">
+				</div>
+				<div class="you">
+					<h3>你说雨停了就在一起</h3>
+					<p>2017-12-21 <a href="#">阅读</a> </p>
+				</div>
+			</div>
+			<div class="zhi">
+				<div class="zuo">
+					<img src="img/6-1.png">
+				</div>
+				<div class="you">
+					<h3>你说雨停了就在一起</h3>
+					<p>2017-12-21 <a href="#">阅读</a> </p>
+				</div>
+			</div>
+			<div class="zhi">
+				<div class="zuo">
+					<img src="img/6-1.png">
+				</div>
+				<div class="you">
+					<h3>你说雨停了就在一起</h3>
+					<p>2017-12-21 <a href="#">阅读</a> </p>
+				</div>
+			</div>
+			<div class="zhi">
+				<div class="zuo">
+					<img src="img/6-1.png">
+				</div>
+				<div class="you">
+					<h3>你说雨停了就在一起</h3>
+					<p>2017-12-21 <a href="#">阅读</a> </p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<ul>
+				<li><img src="img/7-1.png"><p>推荐</p></li>
+				<li><img src="img/7-2.png"><p>活动</p></li>
+				<li><img src="img/7-3.png"><p>商城</p></li>
+				<li><img src="img/7-4.png"><p>圈子</p></li>
+				<li><img src="img/7-5.png"><p>我的</p></li>
+			</ul>
+		</div>
+
+		
+
+
+
+
+
+
+		
+ 
+
+
+
+	</div>
+	<script src="js/swiper-3.4.2.min.js"></script>
+	<script src="js/jquery-1.10.1.min.js"></script>
+	<!-- <script src="js/js.js"></script> -->
+	<script language="javascript"> 
+		var mySwiper = new Swiper('.swiper-container',{
+			slidesPerView : 3,
+			spaceBetween : 20,
+			
+		})
+	</script>
+	<script> 
+		var mySwiper = new Swiper('.swiper-container-2',{
+			autoplay : 3000,
+			autoplayDisableOnInteraction : false,
+		})
+	</script>
+	
+</body>
+</html>

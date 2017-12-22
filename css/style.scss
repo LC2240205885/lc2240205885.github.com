@@ -1,0 +1,156 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	box-sizing:border-box;
+}
+html,body.wrap{
+	width:100%;
+	height:100%;
+	background:#f2f2f2;
+}
+.header{
+	width:100%;
+	height:0.66rem;
+	overflow:hidden;
+	padding:0.16rem 0;
+	background:#fff;
+	img{
+		height:0.37rem;
+		float:left;
+		display:block;
+		margin-left:0.23rem;
+	}
+	p{
+		float:left;
+		font-size:0.12rem;
+		margin-left:0.2rem;
+		margin-top:0.05rem;
+		color:#666666;
+		img{
+			float:right;
+			width:0.14rem;
+			height:0.1rem;
+			margin-left:0.05rem;
+			margin-top:0.06rem;
+		}
+	}
+	a{
+		float:right;
+		img{
+			height:0.18rem;
+			margin-top:0.1rem;
+			margin-right:0.17rem;
+
+		}
+	}
+}
+.banner{
+	width:100%;
+	height:2.1rem;
+	overflow:hidden;
+	background:#fff;
+}
+.list {
+    transition: .5s ease-in-out;
+    li{
+    	float: left;
+    	img{
+    		width: 100%;
+            vertical-align: top;
+    	}
+    }
+}
+.content{
+	width:100%;
+	height:3.1rem;
+	background:#fff;
+	margin-bottom:0.18rem;
+}
+.con-top{
+	width:100%;
+	height:0.6rem;
+	line-height:0.6rem;
+	font-size:0.21rem;
+	overflow:hidden;
+	padding:0 0.15rem;
+	p{
+		float:left;
+	}
+	span{
+		float:right;
+	}
+
+}
+.bottom{
+	width:100%;
+	height:auto;
+	background:#fff;
+	padding-left:0.18rem;	
+	padding-top:0.1rem;
+	overflow:hidden;
+	p{
+		font-size:0.21rem;
+		margin-bottom:0.1rem;
+
+	}
+}
+.zhi{
+	overflow:hidden;
+	font-size:0.3rem;
+	
+}
+.zuo{
+	float:left;
+	width:2rem;
+	img{
+		width:1.92rem;
+	}
+}
+.you{
+	width:2.3rem;
+	height:1.2rem;
+	float:left;
+	
+	h3{
+		font-size:0.22rem;
+		text-overflow:ellipsis;
+		margin-top:0.1rem;
+		color:#474747;
+		font-weight:normal;
+	}
+	p{
+		font-size:0.2rem;
+		margin-top:0.16rem;
+		color:#46423f;
+		float:left;
+		a{
+			display:block;
+			float:right;
+			border:0.01rem solid #2196f3;
+			color:#2196f3;
+			font-size:0.16rem;
+		}
+	}
+
+}
+.footer{
+	width:100%;
+	height:0.62rem;
+	background:#fff;
+	font-size:0.2rem;
+	position:fixed;
+	bottom:0;
+	left:0;
+	li{
+		float:left;
+		text-align:center;
+		width:20%;
+		img{
+			height:0.3rem;
+			margin-top:0.05rem;
+		}
+	}
+}
+     
